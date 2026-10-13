@@ -1,0 +1,36 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Flutter: Run Tests",
+      "type": "shell",
+      "command": "flutter test",
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
+      "problemMatcher": ["$dart-test"]
+    },
+    {
+      "label": "Flutter: Analyze Code",
+      "type": "shell",
+      "command": "flutter analyze",
+      "group": "build",
+      "problemMatcher": ["$dart-analyzer"]
+    },
+    {
+      "label": "Flutter: Build Web",
+      "type": "shell",
+      "command": "flutter build web",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Flutter: Build Windows",
+      "type": "shell",
+      "command": "flutter build windows",
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}
