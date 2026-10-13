@@ -1,11 +1,11 @@
 {
-    "name": "kana_quiz",
-    "short_name": "kana_quiz",
+    "name": "Kana Quiz Master",
+    "short_name": "Kana Quiz",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#7D5BA6",
     "theme_color": "#7D5BA6",
-    "description": "A new Flutter project.",
+    "description": "Practice Japanese Hiragana and Katakana with this interactive flashcard quiz app.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
